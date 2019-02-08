@@ -1,0 +1,29 @@
+<!--Saved Articles Page-->
+
+<div class="container">
+
+    <div class="col-md-12 jumbotron">
+        <div class="text-center">
+            <h1> Saved Articles</h1>
+        
+        {{#if article}}
+            {{#each article}}
+                
+                        <h4>{{title}}</h4>
+                    </div>
+                   
+            <p> {{summary}}</p>
+        <a href={{link}} {{link}}</a>
+                   
+                      
+                    </div>
+                </div>
+            {{/each}}
+        {{else}}
+        
+          
+        {{/if}}
+   
+
+{{#each article}}
+    {{> notes-modal }}
